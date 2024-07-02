@@ -43,4 +43,13 @@ Creating Django App, we have two options for that:
         This command can be run outside the context of a Django project.
         Configuration: It does not require a specific Django project to be run and does not use project-specific settings or configurations.
         Usage: This is typically used when you want to create a new app independently of any existing Django project.
+--------------------------
+Tips :
+ * Makesure every app you created. always add it in the INSTALLED_APPS in project settings
+ * when ever there is a change in db, models.py and settings.py from project update do :
+    -> python manage.py makemigrations
+    -> python manage.py migration
+* run your webApp use :
+    -> python manage.py runserver
+------------------
 
