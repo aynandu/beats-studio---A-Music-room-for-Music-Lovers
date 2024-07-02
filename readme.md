@@ -51,5 +51,7 @@ Tips :
     -> python manage.py migration
 * run your webApp use :
     -> python manage.py runserver
+* Serilizer class (serializers.py):  what seiliazer does is it will take our model it has all the python related codes, it will transilate this models classes into a jaison response. ie keys and values. --> from rest_framework import serializers
+* Generics : what will it do a class inherits from a generic API view -> from rest_frameworks import generics.generics.CreateAPIView : can create /add data on front along with shows the datas as jaison format. otherhand generics.ListAPIView :shows the datas as jaison format only.
 ------------------
 
