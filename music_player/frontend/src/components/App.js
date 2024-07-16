@@ -6,10 +6,10 @@ export default class App extends Component{
         super(props);
     }
     render(){
-        return <h1>Testing React Code working </h1>;
+        return <h1>{this.props.name}</h1>;
     }
 }
 
 const appDiv = document.getElementById("app");
 const root = createRoot(appDiv);
-root.render(<App/>);
+root.render(<App name="Tyson" />);
