@@ -1,3 +1,9 @@
+/*! ./CreateRoomPage */
+
+/*! ./HomePage */
+
+/*! ./JoinRoomPage */
+
 /*! ./cjs/react-dom.development.js */
 
 /*! ./cjs/react.development.js */
@@ -6,11 +12,17 @@
 
 /*! ./components/App */
 
+/*! @remix-run/router */
+
 /*! react */
 
 /*! react-dom */
 
 /*! react-dom/client */
+
+/*! react-router */
+
+/*! react-router-dom */
 
 /*! scheduler */
 
@@ -22,9 +34,17 @@
   !*** ./src/components/App.js ***!
   \*******************************/
 
+/*!************************************!*\
+  !*** ./src/components/HomePage.js ***!
+  \************************************/
+
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
   \*************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/JoinRoomPage.js ***!
+  \****************************************/
 
 /*!*****************************************!*\
   !*** ./node_modules/react-dom/index.js ***!
@@ -38,9 +58,25 @@
   !*** ./node_modules/react-dom/client.js ***!
   \******************************************/
 
+/*!******************************************!*\
+  !*** ./src/components/CreateRoomPage.js ***!
+  \******************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/react-router/dist/index.js ***!
+  \*************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/react-router-dom/dist/index.js ***!
+  \*****************************************************/
+
 /*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
   \*****************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/@remix-run/router/dist/router.js ***!
+  \*******************************************************/
 
 /*!*************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
@@ -49,6 +85,17 @@
 /*!*************************************************************!*\
   !*** ./node_modules/scheduler/cjs/scheduler.development.js ***!
   \*************************************************************/
+
+/**
+ * @remix-run/router v1.17.1
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
 
 /**
  * Checks if an event is supported in the current execution environment.
@@ -62,4 +109,26 @@
  * @return {boolean} True if the event is supported.
  * @internal
  * @license Modernizr 3.0.0pre (Custom Build) | MIT
+ */
+
+/**
+ * React Router DOM v6.24.1
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
+ * React Router v6.24.1
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
  */
